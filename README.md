@@ -9,7 +9,7 @@ So here is a quick overview:
 
 ``` create_display(int width, int height) ```
 
-> Allocates memory for a buffer. Returns a ```c display* ```
+> Allocates memory for a buffer. Returns a ```display* ```
 The display struct contains it's width, height and an unsigned char buffer.
 The values can be modified to be set to either 1 or 0. Other values won't be appreciated...
 
@@ -46,7 +46,7 @@ The values can be modified to be set to either 1 or 0. Other values won't be app
 
 ``` print_display(display* display_ptr, int no_clear) ```
 
-> Prints the display using ```c wprintf()``` for unicode.
+> Prints the display using ``` wprintf()``` for unicode.
 When ``` no_clear == 1 ``` the function won't use ``` system("clear") ```
 
 
